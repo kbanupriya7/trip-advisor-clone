@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Advisor Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cambo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar section -->
+    <nav class="nav-container">
+        <div class="navbar">
+            <div class="navbar__logo">
+                <img src="./images/logo.svg" alt="logo-image">
+            </div>
+            <div class="navbar__search">
+                <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 2, 5);"></i>
+                <input type="text" placeholder="search">
+            </div>
+            <div class="navbar__icons">
+                <div class="animate-button">
+                    <div class="circle"></div>
+                    <button class="navbar__icons__button__one">❇️ Plan with AI</button>
+                </div>
+                <p>Discover</p>
+                <p>Review</p>
+                <i class="fa-solid fa-heart-circle-plus" style="color: rgb(0, 2, 5);"></i>
+                <p><i class="fa-solid fa-globe" style="color: rgb(0, 2, 5);"></i> | USD</p>
+                <button class="navbar__icons__button__two">Sign in</button>
+            </div>
+            <div class="hamburger-menu">
+                <i class="fa-solid fa-bars" style="color: rgb(0, 133, 47);"></i>
+            </div>
+        </div>
+        <div class="navbar-lists">
+            <p>Things to do</p>
+            <p>Hotels</p>
+            <p>Restaurants</p>
+            <p>cruises</p>
+            <p>Forums</p>
+        </div>
+        <hr>
+    </nav>
+    <!-- Tag Line -->
+    <section class="tagline">
+        <p>Hotel Review | Hotels near me</p>
+    </section>
+    <!-- banner-image-section -->
+    <section class="banner-image">
+        <img src="./images/banner-image.jpg" alt="resort-view">
+        <div class="banner-image__inputs">
+            <p>Find hotels,travelers love</p>
+            <div class="banner-image__search">
+                <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 2, 5);"></i>
+                <input type="text" placeholder="Hotel name or destination">
+            </div>
+        </div>
+    </section>
+    <!-- Trust Section -->
+    <section class="trust-container">
+        <div class="trust-section">
+            <div class="trust-section__details">
+                <i class="fa-solid fa-user-group" style="color: rgb(0, 2, 5);"></i>
+                <h2>Backed by travellers</h2>
+                <p>Book confidently thanks to reviews from travelers who have been there.</p>
+            </div>
+            <div class="trust-section__details">
+                <i class="fa-solid fa-house-lock pic" style="color: rgb(0, 2, 5);"></i>
+                <h2>Stays for every sale</h2>
+                <p>Choose from more than two million hotels with filters to find your perfect fit.</p>
+            </div>
+            <div class="trust-section__details">
+                <i class="fa-solid fa-turn-down" style="color: rgb(0, 2, 5);"></i>
+                <h2>Best rates around</h2>
+                <p>Compare prices from 200+ booking sites to book with the best deal.</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- Cards container -->
+    <section class="cards-container">
+        <div class="cards-container__details">
+            <div class="cards-container__details__heading">
+                <h2>Travelers’ Choice: Top hotels</h2>
+                <a href="#">See all</a>
+            </div>
+            <p>Among our top 1% of hotels - decided by travelers.</p>
+            <div class="cards-container__cards">
+                <div class="cards-container__card">
+                    <img src="./images/card1.jpg" alt="hotel-image">
+                    <h1>1</h1>
+                    <button>Gramado</button>
+                    <p>Hotel Colline de France</p>
+                    <p>5.0 <i class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i>
+                        (6,763)
+                    </p>
+                    <div class="cards-container__card__wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="cards-container__card__badge">
+                        <img src="./images/badge.svg" alt="badge">
+                    </div>
+                </div>
+                <div class="cards-container__card">
+                    <img src="./images/card2.jpg" alt="hotel-image">
+                    <h1>2</h1>
+                    <button>Hanoi</button>
+                    <p>La Sinfonía del Rey Hotel & Spa</p>
+                    <p>5.0 <i class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i>
+                        (4,22o)
+                    </p>
+                    <p class="cards-container__card__price">from $115</p>
+                    <div class="cards-container__card__wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="cards-container__card__badge">
+                        <img src="./images/badge.svg" alt="badge">
+                    </div>
+                </div>
+                <div class="cards-container__card">
+                    <img src="./images/card3.jpg" alt="hotel-image">
+                    <h1>3</h1>
+                    <button>hoi An</button>
+                    <p>La Siesta Hoi An Resort & Spa</p>
+                    <p class="rates">5.0 <i class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i>
+                        (8,804)
+                    </p>
+                    <p class="cards-container__card__price">from $68</p>
+                    <div class="cards-container__card__wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="cards-container__card__badge">
+                        <img src="./images/badge.svg" alt="badge">
+                    </div>
+                </div>
+                <div class="cards-container__card">
+                    <img src="./images/card4.jpg" alt="hotel-image">
+                    <h1>4</h1>
+                    <button>Milaidhoo Island</button>
+                    <p>Milaidhoo Maldives</p>
+                    <p class="rates">5.0 <i class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i>
+                        (2,181)
+                    </p>
+                    <p class="cards-container__card__price">from $1351</p>
+                    <div class="cards-container__card__wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="cards-container__card__badge">
+                        <img src="./images/badge.svg" alt="badge">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- travellers's choice -->
+    <section class="cards-container">
+        <div class="cards-container__details">
+            <h1>You might like this</h1>
+            <p>More places to stay in Gramado</p>
+            <div class="cards-container__cards">
+                <div class="cards-container__card" id="choice-container">
+                    <img src="./images/choice-card1.jpg" alt="hotel-image" id="choice-card">
+                    <p>Hotel Valle D’incanto</p>
+                    <p>5.0 <i class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i>
+                        (5,503)
+                    </p>
+                    <div class="cards-container__card__wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="choice-card-badge">
+                        <img src="./images/badge.svg" alt="badge">
+                    </div>
+                </div>
+                <div class="cards-container__card" id="choice-container">
+                    <img src="./images/choice-card2.jpg" alt="hotel-image" id="choice-card">
+                    <p>Hotel Ritta Höppner</p>
+                    <p>5.0 <i class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i>
+                        (6,503)
+                    </p>
+                    <div class="cards-container__card__wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="choice-card-badge">
+                        <img src="./images/badge.svg" alt="badge">
+                    </div>
+                </div>
+                <div class="cards-container__card" id="choice-container">
+                    <img src="./images/choice-card3.jpg" alt="hotel-image" id="choice-card">
+                    <p>Wyndham Gramado Termas Resort & Spa</p>
+                    <p>4.5 <i class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle-half-stroke fa-2xs" style="color: rgb(0, 133, 47);"></i>
+                        (4,430)
+                    </p>
+                    <div class="cards-container__card__wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="choice-card-badge">
+                        <img src="./images/badge-green.svg" alt="badge">
+                    </div>
+                </div>
+                <div class="cards-container__card" id="choice-container">
+                    <img src="./images/choice-card4.jpg" alt="hotel-image" id="choice-card">
+                    <p>Villa Bella Hotel & Spa Gramado</p>
+                    <p>4.7 <i class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle-half-stroke fa-2xs" style="color: rgb(0, 133, 47);"></i>
+                        (2,287)
+                    </p>
+                    <div class="cards-container__card__wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="choice-card-badge">
+                        <img src="./images/badge-green.svg" alt="badge">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Inclusive-resort -->
+    <section class="cards-container">
+        <div class="cards-container__details">
+            <div class="cards-container__details__heading">
+                <h2>Travelers’ Choice: All-inclusive resorts</h2>
+                <a href="#">See all</a>
+            </div>
+            <div class="cards-container__cards">
+                <div class="cards-container__card" id="choice-container">
+                    <img src="./images/resort-1.jpg" alt="hotel-image" id="choice-card">
+                    <p>Ikos Dassia</p>
+                    <p>4.8 <i class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i>
+                        (5,503)
+                    </p>
+                    <div class="cards-container__card__wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="choice-card-badge">
+                        <img src="./images/badge.svg" alt="badge">
+                    </div>
+                </div>
+                <div class="cards-container__card" id="choice-container">
+                    <img src="./images/resort-2.jpg" alt="hotel-image" id="choice-card">
+                    <p>
+                        Rixos Premium Belek - The Land Of Legends Access</p>
+                    <p>4.9 <i class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i>
+                        (13,676)
+                    </p>
+                    <div class="cards-container__card__wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="cards-container__card" id="choice-container">
+                    <img src="./images/resort-3.jpg" alt="hotel-image" id="choice-card">
+                    <p>Wyndham Gramado Termas Resort & Spa</p>
+                    <p>4.8 <i class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle-half-stroke fa-2xs" style="color: rgb(0, 133, 47);"></i>
+                        (11,124)
+                    </p>
+                    <div class="cards-container__card__wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="cards-container__card" id="choice-container">
+                    <img src="./images/resort-4.jpg" alt="hotel-image" id="choice-card">
+                    <p>
+                        Voyage Belek Golf & Spa</p>
+                    <p>4.8 <i class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle fa-2xs" style="color: rgb(0, 133, 47);"></i><i
+                            class="fa-solid fa-circle-half-stroke fa-2xs" style="color: rgb(0, 133, 47);"></i>
+                        (16,737)
+                    </p>
+                    <div class="cards-container__card__wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="choice-card-badge">
+                        <img src="./images/badge-green.svg" alt="badge">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Destination-section -->
+    <section class="cards-container">
+        <div class="cards-container__details">
+            <div class="cards-container__details__heading">
+                <h2>Travelers’ Choice: All-inclusive resorts</h2>
+                <a href="#">See all</a>
+            </div>
+            <div class="cards-container__cards">
+                <div class="cards-container__card" id="choice-container">
+                    <img src="./images/destination1.jpg" alt="hotel-image" id="choice-card">
+                    <h3>Scottsdale</h3>
+                    <p>Scottsdale has more spas per capita than any other city in the U.S.—so whether you’re looking for
+                        the latest medi-spa technology or a new-agey, bohemian vibe...
+                    </p>
+                    <p><a href="#" class="read-more">Read More </a></p>
+                </div>
+                <div class="cards-container__card" id="choice-container">
+                    <img src="./images/destination2.jpg" alt="hotel-image" id="choice-card">
+                    <h3>Fort Lauderdale</h3>
+                    <p>Fort Lauderdale’s canals and charm have earned it the nickname “The Venice of America.” The
+                        beaches offer 23 miles of golden sand, lively with the spirited antics of happy...
+                    </p>
+                    <p><a href="#" class="read-more">Read More </a></p>
+                </div>
+                <div class="cards-container__card" id="choice-container">
+                    <img src="./images/destination3.jpg" alt="hotel-image" id="choice-card">
+                    <h3>Key West</h3>
+                    <p>Does time ever pass in the Florida Keys? Everyone and everything in Key West seems to go at its
+                        own pace, right down to the ice melting slooooowly in your margarita glass...
+                    </p>
+                    <p><a href="#" class="read-more">Read More </a></p>
+                </div>
+                <div class="cards-container__card" id="choice-container">
+                    <img src="./images/destination4.jpg" alt="hotel-image" id="choice-card">
+                    <h3>Miami</h3>
+                    <p>Miami is hot hot hot! And it’s not just the sultry weather. Here, the nightlife is scorching,
+                        thanks to a strong Latin influence and spicy salsa culture. Dance the noche away in a...
+                    </p>
+                    <p><a href="#" class="read-more">Read More </a></p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Review-section -->
+    <section class="review-container">
+        <div class="review-container__cards">
+            <h3>Hotel reviews: Hotels near me</h3>
+            <h6>Hotels in popular destinations — Find hotels & motels near you</h6>
+            <div class="review-container__links">
+                <div class="review-container-link">
+                    <p>UNITED STATES & CANADA</p>
+                    <p>Atlanta Hotels</p>
+                    <p>Atlantic City Hotels</p>
+                    <p>Boston Hotels</p>
+                    <p>Chicago Hotels</p>
+                    <p>Dallas Hotels</p>
+                </div>
+                <div class="review-container-link">
+                    <p>Vancouver Hotels</p>
+                    <p>Washington DC Hotels</p>
+                    <p></p>
+                    <p>EUROPE</p>
+                    <p>Amsterdam Hotels</p>
+                    <p>Barcelona Hotels</p>
+                </div>
+                <div class="review-container-link">
+                    <p>Playa del Carmen Hotels</p>
+                    <p>Puerto Plata Hotels</p>
+                    <p>Puerto Rico Hotels</p>
+                    <p>Punta Cana Hotels</p>
+                    <p></p>
+                    <p>ASIA/PACIFIC & AUSTRALIA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="bottom-ruler">
+    <!-- Bottom-menu -->
+    <section class="bottom-menu">
+        <div class="bottom-menu__links">
+            <p>Hotels</p>
+            <p>Thinks to do</p>
+            <p>Restaurants</p>
+            <p>Cruises</p>
+            <p>More</p>
+        </div>
+    </section>
+    <!-- Footer-section -->
+    <section class="footer-section">
+        <div class="footer-section__details">
+            <div class="footer-section__details__card__top">
+                <div class="footer-section__details__card__left">
+                    <img src="./images/footer-icon.svg" alt="logo-image">
+                </div>
+                <div class="footer-section__details__card__center">
+                    <div class="center-section-one">
+                        <p>&copy;2026Tripadvisor LLC All rights reserved.</p>
+                    </div>
+                    <div class="center-section-two">
+                        <a href="#">Terms of Use</a>
+                        <a href="">Privacy and Cookies Statement</a>
+                        <a href="">Cookie Consent</a>
+                        <a href="">How the site works</a>
+                        <a href="">Contact Us</a>
+                        <a href="">Accessibility statement</a>
+                    </div>
+                </div>
+                <div class="footer-section__details__card__right">
+                    <select class="drop-down">
+                        <option>$ USD</option>
+                        <option>₹ INR</option>
+                        <option>£ GPB</option>
+                    </select>
+                    <select class="drop-down">
+                        <option>United States</option>
+                        <option>India</option>
+                        <option>United Kingdom</option>
+                    </select>
+                </div>
+            </div>
+            <div class="footer-section__details__card__bottom">
+                <p class="bottom-details">This is the version of our website addressed to speakers of English in the
+                    United States. If you are a resident of another country or region, please select the appropriate
+                    version of Tripadvisor for your country or region in the drop-down...</p>
+                <a href="#" class="bottom-details-more">Read More</a>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
