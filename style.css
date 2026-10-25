@@ -211,10 +211,11 @@ hr {
   padding-top: 40px;
 }
 .cards-container__details {
- 
+ width: fit-content;
   margin-left: 15%;
   cursor: pointer;
   position: relative;
+
 }
 .cards-container__details__heading {
   display: flex;
@@ -289,18 +290,18 @@ button {
   left: 10px;
 }
 .cards-container__card__nextarrow{
- position: absolute;
- top: 40%;
- right:8%;
- width: 20px;
- height: 20px;
- background-color: white;
- padding: 8px;
- text-align: center;
- border-radius: 50%;
- display: flex;
- align-items: center;
- justify-content: center;
+  position: absolute;
+  top: 40%;
+  left: 99%;
+  width: 15px;
+  height: 15px;
+  padding: 8px;
+  background-color: white;
+  border: 1px solid seagreen;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* choice-card */
 #choice-container {
